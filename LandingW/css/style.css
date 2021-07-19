@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #DFE1E3;
+}
+
+.wrapper {
+    width: 1000px;
+    padding: 4.5rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* HEADER---------------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #DFE1E3;
+}
+
+.logo i {
+    color: #ff009d;
+    font-size: 3rem;
+}
+
+.navegacion ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.navegacion ul li {
+    list-style: none;
+}
+
+.navegacion li a {
+    text-decoration: none;
+    color: #29323D;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+
+/* ABOUT US--------------------------- */
+
+.about-us {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-us-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.about-us-text h1 {
+    font-size: 2rem;
+    color: #29323D;
+    padding-top: 2rem;
+    color: #29323D;
+}
+
+.about-us-img {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-img img {
+    max-width: 200px;
+    height: 200px;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    margin-right: 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #29323D;
+    color: #fff;
+    padding: .6rem .5rem;
+    border-radius: 50px;
+}
+
+.btn-secondary {
+    padding: .4rem .5rem;
+    border-radius: 50px;
+    border: 4px #29323D solid;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background: #000000;
+}
+
+.btn-secondary:hover {
+    background-color: #29323D;
+    color: #fff;
+}
+
+.intro {
+    display: grid;
+    padding: 4em;
+    max-height: 300px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.intro p {
+    margin: 2rem 0;
+    line-height: 2rem;
+}
+
+
+/*OUR ADVANTEGES--------------------*/
+
+.advantages {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.tittle {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.tittle h2 {
+    margin-bottom: 1.4em;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.benefit {
+    text-align: center;
+    max-width: 80%;
+}
+
+.benefit i {
+    font-size: 3rem;
+}
+
+.benefit h3 {
+    margin: 1rem 0;
+}
+
+.fa-table:hover {
+    color: #1877f2;
+}
+
+.fa-life-ring:hover {
+    color: #ff4500;
+}
+
+.fa-heart:hover {
+    color: #ff0000;
+}
+
+
+/*HOW WE WORK--------------*/
+
+.how-we-work {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem 0;
+}
+
+.hww-tittle {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.hww-tittle h2 {
+    margin-bottom: 1.4em;
+}
+
+.hww-items {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+}
+
+.hww-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hww-item:hover {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.hww-item h4 {
+    margin: 2rem 0;
+}
+
+.hww-item p {
+    color: rgb(92, 92, 92)
+}
+
+.hww-logo {
+    background: #f0f0f0;
+    color: rgb(163, 159, 159);
+    border-radius: 20px;
+    width: 40px;
+    padding: 10px 0;
+}
+
+
+/* OUR CLIENTES ------------------- */
+
+.our-clients {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+}
+
+.our-clients-tittle {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.our-clients-tittle h2 {
+    margin-bottom: 1.3em;
+}
+
+.our-clients-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.our-clients-img img {
+    width: 150px;
+    height: 100px;
+}
+
+
+/* CONTACT US------------------ */
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-us-info h2 {
+    margin: 2rem 0;
+}
+
+.contact-us-info-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.contact-us-info-item {
+    display: grid;
+    padding: 1rem;
+    width: 200px;
+    color: rgb(82, 82, 82);
+}
+
+.contact-us-info-item p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-us-info-item i {
+    margin-bottom: 1rem;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-us-socials ul {
+    max-width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.contact-us-socials li {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.contact-us-socials li a {
+    color: #29323D;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-instagram:hover {
+    color: #c13584;
+}
+
+.fa-facebook-square:hover {
+    color: #1877f2;
+}
+
+
+/* FOOTER------------------- */
+
+.footer {
+    margin-top: 3rem;
+}
+
+.content-footer {
+    text-align: center;
+    margin: 0;
+}
+
+.content-footer i {
+    color: #ff009d;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.content-footer p {
+    color: #29323D;
+    font-weight: 600;
+    margin-bottom: 0;
+}

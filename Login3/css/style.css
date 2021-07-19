@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedor-formulario {
+    background-color: #FEE1DB;
+    height: 600px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 1px 1px 15px rgb(82, 82, 82);
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    background: #011F97;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.logo i {
+    font-size: 1.6rem;
+    color: #FEE1DB;
+}
+
+.contenedor-up-in {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.contenedor-up-in a {
+    text-decoration: none;
+    color: #011F97;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.contenedor-up-in a:hover {
+    text-decoration: underline 1px #011F97;
+    text-underline-position: under;
+    ;
+}
+
+.form {
+    display: grid;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.form input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #011F97;
+    padding: .6rem;
+    color: #011F97;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form label {
+    font-size: .75rem;
+    color: #011F97;
+    margin-top: .5rem;
+}
+
+.btn {
+    background: #011F97;
+    color: #FEE1DB;
+    padding: .8rem;
+    border-radius: 5px;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn-submit {
+    margin-top: 50px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #011152
+}
